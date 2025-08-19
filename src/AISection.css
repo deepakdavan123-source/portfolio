@@ -1,0 +1,41 @@
+.ai-section {
+  background: linear-gradient(120deg, #2a5298 0%, #1e3c72 100%);
+  color: #fff;
+  padding: 70px 0 60px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+.ai-content {
+  max-width: 540px;
+  text-align: left;
+}
+.ai-content h2 {
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+  color: #ffd700;
+}
+.ai-content p {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: #e0e0e0;
+}
+.ai-visual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 140px;
+}
+@media (max-width: 900px) {
+  .ai-section {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+  .ai-content {
+    text-align: center;
+  }
+}
